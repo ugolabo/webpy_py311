@@ -1,0 +1,61 @@
+$def with (content)
+<html lang="en-CA">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" link href="/static/css/style.css" />
+<link rel="icon" type="image/ico" href="faviconfire.ico">
+<title>Starship Survivor</title>
+</head>
+
+<body>
+	<div id="page">
+ 
+		<div id="header">
+        	<h1>Starship Survivor</h1>
+            <h2>An interactive story (7-min read). This website runs on the <a href="http://webpy.org/" target="_blank" >web.py</a> framework; the Python scripts render the text and images on HTML/CSS layouts. Following the course ‘<a href="https://learnpythonthehardway.org/" target="_blank" >Learn Python the Hard Way</a>’, this project wraps up the completion of a series of coding courses: from Python, HTML, CSS, JavaScript, to digital literacy, shells, Git, and other tools.</h2>
+		</div>
+        
+        <div class="links">
+        	<a href="https://learnpythonthehardway.org/" target="_blank" >Learn Python the Hard Way</a> | 
+			<a href="https://www.codecademy.com/" target="_blank" >Codecademy</a> | 
+			<a href="https://www.codeschool.com/" target="_blank" >Code School</a> | 
+			<a href="https://teamtreehouse.com/" target="_blank" >Treehouse</a>
+        </div>
+        
+        <div id="content">
+
+				$:content
+
+            <div class="content_instance_big">
+                <h2 style="margin-top:0px; margin-bottom:10px" >The concept of interactive stories</h2>
+                <p style="margin-top:0px; margin-bottom:10px" >
+                The heyday of branching-path novels preceeded the coming of the Internet in the early 1990s. The principle is similar: one would browse though a <a href="https://en.wikipedia.org/wiki/Gamebook" target="_blank" >gamebook</a> just like one can browse through a website. Each numbered paragraph would offer choices to other numbered paragraphs. Instead of clicking on a link, one would flip the pages to the new paragraph and move through the book. The adventures had their share of combats, challenges, and enigmas. Very popular in the 1980s and 1990s, these fantasy and futuristic fictions were translated in over 30 languages and sold over 17M books.
+                </p>
+                <p>
+                <img style="width:auto; height:120px; margin-top:10px; margin-bottom:10px; margin-left:25px; margin-right:10px; position:static" src="static/img/gamebookC.png" alt="page image1" />
+                </p>
+				<p style="margin-top:10px; margin-bottom:10px" >
+                Originally published on paper, the <a href="http://gamebooks.org/" target="_blank" >stories</a> have found a new life on mobile devices. Nowadays, many <a href="http://gamebookadventures.com/gamebooks/" target="_blank" >classical</a> and <a href="http://www.tomsguide.com/us/best-gamebook-apps,review-2419.html" target="_blank" >original</a> stories are available on both iOS and Android. However, if you could easily cheat with the printed books, it's now much harder with the mobile apps...
+				</p>              
+
+				<h2 style="margin-top:0px; margin-bottom:10px" >Brutalist websites</h2>
+				<p style="margin-top:0px; margin-bottom:15px" >
+                Regarding the 1990s, making websites that take their design cues from ’90s graphics is called: Brutalism. A mere synonym of Minimalism, Brutalism has something to do with a ‘no frills’ approach. It is the philosophy behind this website and the <a href="http://webpy.org/" target="_blank" >web.py</a> framework.
+				</p>
+				<p style="margin-top:0px; margin-bottom:0px" >
+				Since, say, 2015, Brutalism has apparently been a big trend in web design. However, Brutalism takes root in the 1950s, from the Brutalist architecture. Brutalism is derived from ‘béton brut’ (raw concrete). Most Brutalist buildings are short on ornamentation, with rough unfinished surfaces, unusual shapes, solid materials (like concrete), massive forms, and contrasting small features. <a href="http://brutalistwebsites.com/" target="_blank" >Brutalist websites</a> tend to have simple markup, a lack of optimization, and nothing complex to weigh things down. In other words, they ‘keep it simple’!
+				</p>
+				<p>&nbsp;</p>
+			</div>
+			
+		</div>
+        
+		<div id="footer">
+		Hosted by <a href="https://www.pythonanywhere.com" target="_blank" >PythonAnywhere</a>
+		<p>&nbsp;</p>
+		</div>
+        
+    </div>
+        
+</body>
+</html>

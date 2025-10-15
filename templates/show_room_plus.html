@@ -1,0 +1,32 @@
+$def with (room)
+
+<div class="content_top">
+    <h1>$room.name</h1>
+</div>
+
+<div class="content_instance">
+    
+    <img src="$room.imgone" alt="chapter image" />
+                
+    <div class="content_right">
+    <p style="margin-top:0px; margin-bottom:10px; margin-right:15px">$room.description</p>
+    <p style="margin-top:0px; margin-bottom:10px; margin-right:15px">$room.complement</p>
+    <p style="margin-top:0px; margin-bottom:10px; margin-right:15px">
+    $if room.name != "Epilogue":
+    	<em>Please, enter: </em>
+    </p>
+    <p style="margin-top:0px; margin-bottom:10px; margin-right:15px">$room.choices</p>
+    $if room.name == "Epilogue":
+        <p><a href="/">Play Again ?</a></p>
+    $else:
+        <form action="/game" method="POST">
+            <input type="text" name="action"> <input type="SUBMIT">
+        </form>
+        <p><a href="/">Restart ?</a></p>
+    <p style="margin-top:0px; margin-bottom:10px; margin-right:15px"><a href="/f">Lire l'histoire en français ?</a></p>
+    <img style="width:50px; height:auto; margin-top:10px; margin-bottom:10px; margin-left:130px; margin-right:10px; position:static" src="$room.imgtwo" alt="chapter icon" />
+    </div>
+    
+</div>
+
+
