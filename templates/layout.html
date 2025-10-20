@@ -1,0 +1,90 @@
+$def with (content)
+
+<html lang="en-CA">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" link href="/static/css/style.css"/>
+    <link rel="icon" type="image/ico" href="/static/img/favicon.ico">
+    <title>Starship Survivor</title>
+</head>
+
+<body>
+
+    <div id="page">
+ 
+        <div id="header">
+            <h1>Starship Survivor</h1>
+            <h2>This interactive story (7-min read) is powered by the <a href="https://webpy.org/" target="_blank">web.py</a> framework. Python scripts are leveraged to dynamically render all text and images within a HTML/CSS layout. Conceived after an in-depth review of a prior edition of "<a href="https://learnpythonthehardway.org/" target="_blank">Learn Python the Hard Way</a>", this project solidifies proficiency across Python, HTML, CSS, shells, Git and other essential tools.</h2>
+        </div>
+        
+        <div class="links">
+            <a href="https://learnpythonthehardway.org/" target="_blank">Learn Python the Hard Way</a> &nbsp;&nbsp; &#9679; &nbsp;&nbsp;
+            <a href="https://www.codecademy.com/" target="_blank">Codecademy</a> &nbsp;&nbsp; &#9679; &nbsp;&nbsp;
+            <a href="https://www.codeschool.com/" target="_blank">Code School</a>
+        </div>
+        
+        <div id="content">
+
+            $:content
+
+            <div class="content_instance_big">
+
+                <h2 style="margin-top:0px; margin-bottom:10px">Project Origins and Modernization</h2>
+
+                <p style="margin-top:0px; margin-bottom:10px">
+                This project originated from the blueprint provided in the outdated "<a href="https://cglab.ca/~morin/teaching/1405/lpthw/book/" target="_blank">Learn Python the Hard Way, 2nd edition</a>" (2011), which was based on a legacy stack: Python 2.5.1 and an older version of the web.py framework. The initial design was a simple, single-language website.
+
+                <img style="width:auto; height:200px; margin-top:10px; margin-bottom:10px; margin-left:10px; margin-right:25px; float:left" src="static/img/lpthw2ndedition.jpg" alt="page image1"/>
+
+                <p style="margin-top:0px; margin-bottom:10px">
+                The undertaking was significantly expanded through the implementation of a bilingual mode and the integration of substantial additional imagery. The most profound technical challenge, however, was the decision to migrate the entire codebase to Python 3.11, completely modernizing the deprecated code proposed in the 2011 source material.
+                </p>
+
+                <p style="margin-top:0px; margin-bottom:10px">
+                This approach intentionally diverges from the book's subsequent evolution: later editions (3rd edition (2014) and 4th edition (2017)) modernized the web project by switching to the Flask framework in Python 3.6.0. The most recent iteration, the 5th edition (2024), has since abandoned web development entirely, focusing instead on Data Science. By choosing to retrofit and update the original web.py concept with Python 3.11, this project aimed for a unique exercise in legacy code modernization and technical adaptation.
+                </p>
+
+                <h2 style="margin-top:0px; margin-bottom:10px">The concept of interactive stories</h2>
+
+                <p style="margin-top:0px; margin-bottom:10px">
+                The heyday of branching-path novels, also known as <a href="https://en.wikipedia.org/wiki/Gamebook" target="_blank">gamebook</a>, flourished just before the rise of the Internet in the early 1990s. The core principle mirrors website navigation: the reader browsed through the book much like clicking through pages. Each numbered paragraph offered choices that led to other corresponding numbered paragraphs. Instead of following a hyperlink, the reader would physically flip the pages to the new section, advancing through an adventure defined by combats, challenges and enigmas.
+                </p>
+
+                <p style="margin-top:0px; margin-bottom:10px">
+                Highly popular throughout the 1980s and 1990s, these fantasy and futuristic fictions were translated into over <b>3030 languages</b> and sold more than <b>17 million books</b> worldwide.
+                </p>
+
+                <p>
+                <img style="width:auto; height:125px; margin-top:10px; margin-bottom:10px; margin-left:10px; margin-right:10px; position:static" src="static/img/gamebooks.png" alt="page image2"/>
+                </p>
+
+                <p style="margin-top:10px; margin-bottom:10px">
+                Originally published on paper, these <a href="http://gamebooks.org/" target="_blank">stories</a> have found a new life on mobile devices. Nowadays, many classical and original stories are available on both iOS and Android. However, while it was easy to cheat with the printed books, doing so is much harder with the mobile applications.
+                </p>
+
+                <h2 style="margin-top:0px; margin-bottom:10px">The Brutalist Aesthetic</h2>
+
+                <p style="margin-top:0px; margin-bottom:15px">
+                Web design that deliberately takes its cues from 1990s graphics and early web aesthetics is often categorized using terms like Neo-Geocities, Web 1.0 Revival, or the most common, Brutalism. This philosophy embraces a raw, "no frills" approach, aiming for weightlessness and simplicity. The Brutalist aesthetic is characterized by rawness, simple markup, plain typography, a lack of modern optimization, and often a deliberate lack of user-friendliness. This focus on direct function over sleek form aligns perfectly with the underlying philosophy of the <a href="http://webpy.org/" target="_blank">web.py</a> framework.
+                </p>
+                <p>&nbsp;</p>
+                </p>
+
+            </div>
+
+            <div class="content_bottom"></div>
+
+        </div>
+
+        <div id="footer">
+            <p>&nbsp;</p>
+            Hosted by <a href="https://www.pythonanywhere.com" target="_blank">PythonAnywhere</a>
+            <p>&nbsp;</p>
+        </div>
+
+    </div>
+        
+</body>
+</html>
