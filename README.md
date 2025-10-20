@@ -58,7 +58,7 @@ This project originated from the blueprint provided in the outdated "<a href="ht
 
 The undertaking was significantly expanded through the implementation of a bilingual mode and the integration of substantial additional imagery. The most profound technical challenge, however, was the decision to migrate the entire codebase to Python 3.11, completely modernizing the deprecated code proposed in the 2011 source material.
 
-This approach intentionally diverges from the book's subsequent evolution: later editions (3rd edition (2014) and 4th edition (2017)) modernized the web project by switching to the Flask framework in Python 3.6.0. The most recent iteration, the 5th edition (2024), has since abandoned web development entirely, focusing instead on Data Science. By choosing to retrofit and update the original web.py concept with Python 3.11, this project aimed for a unique exercise in legacy code modernization and technical adaptation.
+This approach intentionally diverges from the book's subsequent evolution: later editions (3rd edition, 2014,  and 4th edition, 2017) modernized the web project by switching to the Flask framework in Python 3.6.0. The most recent iteration, the 5th edition (2024), has since abandoned web development entirely, focusing instead on Data Science. By choosing to retrofit and update the original web.py concept with Python 3.11, this project aimed for a unique exercise in legacy code modernization and technical adaptation.
 
 # The Concept of Interactive Stories
 
