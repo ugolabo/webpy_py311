@@ -14,6 +14,7 @@ To run this interactive story locally, please ensure your environment meets the 
 
 The project utilizes a clear structure to separate the web engine, story logic and presentation assets.
 
+```
 ───webpy_py311           # Root directory and virtual environment.
     ├───bin              # Contains 'app.py', the main website engine.
     ├───gothonmap        # Holds 'map.py', which defines the story logic and narrative flow.
@@ -22,6 +23,7 @@ The project utilizes a clear structure to separate the web engine, story logic a
     │   ├───css          # Stylesheet.
     │   └───img          # Images for the story and layout.
     └───templates        # HTML templates rendered by the engine.
+```
 
 Function: The core application engine (bin/app.py) retrieves the narrative data from gothonmap/map.py, dynamically renders it using the HTML files in templates/ and applies styling via the assets in static/. The sessions/ folder is essential for maintaining user progress throughout the interactive story.
 
