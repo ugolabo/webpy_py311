@@ -1,4 +1,4 @@
-# Web.py with Python 3.11
+# web.py with Python 3.11
 
 This interactive story (7-min read) is powered by the <a href="https://webpy.org/" target="_blank">web.py</a> framework. Python scripts are leveraged to dynamically render all text and images within a HTML/CSS layout. Conceived after an in-depth review of a prior edition of "<a href="https://learnpythonthehardway.org/" target="_blank">Learn Python the Hard Way</a>", this project solidifies proficiency across Python, HTML, CSS, shells, Git and other essential tools.
 
