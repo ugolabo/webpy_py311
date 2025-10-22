@@ -1,10 +1,10 @@
-# webpy_py311
+# Web.py with Python 3.11
 
 This interactive story (7-min read) is powered by the <a href="https://webpy.org/" target="_blank">web.py</a> framework. Python scripts are leveraged to dynamically render all text and images within a HTML/CSS layout. Conceived after an in-depth review of a prior edition of "<a href="https://learnpythonthehardway.org/" target="_blank">Learn Python the Hard Way</a>", this project solidifies proficiency across Python, HTML, CSS, shells, Git and other essential tools.
 
-<img style="width:auto; width:800px; margin-top:10px; margin-bottom:10px; margin-left:10px; margin-right:25px; float:left" src="static/img/webpy_py311.gif" alt="page image0"/>
+Hosted by<a href="https://ugolbo.pythonanywhere.com/" target="_blank">PythonAnywhere</a>
 
-<a href="https://ugolbo.pythonanywhere.com/" target="_blank">Hosted by PythonAnywhere</a>
+<img style="width:auto; width:800px; margin-top:10px; margin-bottom:10px; margin-left:10px; margin-right:25px; float:left" src="static/img/webpy_py311.gif" alt="page image0"/>
 
 ## Project Setup and Structure
 
@@ -29,7 +29,7 @@ The project utilizes a clear structure to separate the web engine, story logic a
     └───templates        # HTML templates rendered by the engine.
 ```
 
-Function: The core application engine (bin/app.py) retrieves the narrative data from gothonmap/map.py, dynamically renders it using the HTML files in templates/ and applies styling via the assets in static/. The sessions/ folder is essential for maintaining user progress throughout the interactive story.
+Function: The core application engine ('bin/app.py') retrieves the narrative data from 'gothonmap/map.py', dynamically renders it using the HTML files in 'templates/' and applies styling via the assets in 'static/'. The 'sessions/' folder is essential for maintaining user progress throughout the interactive story.
 
 ## Running the Application
 
