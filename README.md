@@ -19,14 +19,14 @@ To run this interactive story locally, please ensure your environment meets the 
 The project utilizes a clear structure to separate the web engine, story logic and presentation assets.
 
 ```
-───webpy_py311           # Root directory and virtual environment.
-    ├───bin              # Contains 'app.py', the main website engine.
-    ├───gothonmap        # Holds 'map.py', which defines the story logic and narrative flow.
-    ├───sessions         # Used by web.py for managing user state and persistent session data.
-    ├───static           # Public assets used for presentation.
-    │   ├───css          # Stylesheet.
-    │   └───img          # Images for the story and layout.
-    └───templates        # HTML templates rendered by the engine.
+───webpy_py311
+    ├───bin
+    ├───gothonmap
+    ├───sessions
+    ├───static
+    │   ├───css
+    │   └───img
+    └───templates
 ```
 
 Function: The core application engine ('bin/app.py') retrieves the narrative data from 'gothonmap/map.py', dynamically renders it using the HTML files in 'templates/' and applies styling via the assets in 'static/'. The 'sessions/' folder is essential for maintaining user progress throughout the interactive story.
@@ -76,4 +76,4 @@ Originally published on paper, these <a href="http://gamebooks.org/" target="_bl
 
 # The Brutalist Aesthetic
 
-Web design that deliberately takes its cues from 1990s graphics and early web aesthetics is often categorized using terms like Neo-Geocities, Web 1.0 Revival, or the most common, Brutalism. This philosophy embraces a raw, "no frills" approach, aiming for weightlessness and simplicity. The Brutalist aesthetic is characterized by rawness, simple markup, plain typography, a lack of modern optimization, and often a deliberate lack of user-friendliness. This focus on direct function over sleek form aligns perfectly with the underlying philosophy of the <a href="http://webpy.org/" target="_blank">web.py</a> framework.
+Web design that deliberately takes its cues from 1990s graphics and early web aesthetics is often categorized using terms like Neo-Geocities, Web 1.0 Revival, or the most common, Brutalism. This philosophy embraces a raw, "no frills" approach, aiming for weightlessness and simplicity. The Brutalist aesthetic is characterized by rawness, simple markup, plain typography, a lack of modern optimization and often a deliberate lack of user-friendliness. This focus on direct function over sleek form aligns perfectly with the underlying philosophy of the <a href="http://webpy.org/" target="_blank">web.py</a> framework.
