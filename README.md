@@ -2,7 +2,7 @@
 
 This interactive story (7-min read) is powered by the <a href="https://webpy.org/" target="_blank">web.py</a> framework. Python scripts are leveraged to dynamically render all text and images within a HTML/CSS layout. Conceived after an in-depth review of a prior edition of "<a href="https://learnpythonthehardway.org/" target="_blank">Learn Python the Hard Way</a>", this project solidifies proficiency across Python, HTML, CSS, shells, Git and other essential tools.
 
-Hosted by <a href="https://ugolbo.pythonanywhere.com/" target="_blank">PythonAnywhere</a>
+Hosted by <a href="https://ugolbo.pythonanywhere.com/" target="_blank">PythonAnywhere</a>.
 
 <img style="width:auto; width:800px; margin-top:10px; margin-bottom:10px; margin-left:10px; margin-right:25px; float:left" src="static/img/webpy_py311.gif" alt="page image0"/>
 
@@ -11,7 +11,7 @@ Hosted by <a href="https://ugolbo.pythonanywhere.com/" target="_blank">PythonAny
 To run this interactive story locally, please ensure your environment meets the following requirements:
 
 1. Clone the Repository: Begin by cloning the project files to your machine.
-1. Environment: The application is designed for Python 3.11.
+1. Environment: The application is built targeting Python 3.11 compatibility. It is confirmed to run on Python 3.10, which is the version currently used for deployment on PythonAnywhere.
 1. Dependencies: Install the required web.py framework: `pip install web.py`
 
 ### Directory Layout
@@ -35,9 +35,9 @@ Function: The core application engine ('bin/app.py') retrieves the narrative dat
 
 To launch the web application, follow these simple steps:
 
-1. Navigate: Ensure your terminal is at the root directory of the project (webpy_py311).
+1. Navigate: Ensure your terminal is at the root directory of the project (webpy_py311/).
 1. Execute: Run the main application file using your Python executable: `python bin/app.py`
-    - Note: Depending on your Windows setup, you may need to use `py -3 bin/app.py` or `python3 bin/app.py`
+    - Note: Depending on your OS setup, you may need to use `py -3 bin/app.py` or `python3 bin/app.py`.
 1. Access: The terminal will display the local server address, typically `http://0.0.0.0:8080/`. Copy this URL and paste it into your web browser.
 1. Dependencies: Please note that standard VPNs and ad blockers should not interfere with accessing the site locally.
 
