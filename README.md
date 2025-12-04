@@ -12,7 +12,7 @@ To run this interactive story locally, please ensure your environment meets the 
 
 1. Clone the Repository: Begin by cloning the project files to your machine.
 1. Environment: The application is built targeting Python 3.11 compatibility. It is confirmed to run on Python 3.10, which is the version currently used for deployment on PythonAnywhere.
-1. Dependencies: Install the required web.py framework: `pip install web.py`
+1. Dependencies: Install the required web.py framework: `pip install web.py`.
 
 ### Directory Layout
 
